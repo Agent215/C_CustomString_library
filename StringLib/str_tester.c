@@ -10,7 +10,7 @@ testing driver program for string library.
   int main (int argc, char **argv) {
 
 
-    //input string
+    //input  test string
     printf (" please enter a string \n ");
     char string[250];
     scanf("%s", string);
@@ -22,14 +22,15 @@ testing driver program for string library.
     //testing of functions
     result = all_letters(string);
 
+    //returns 0 if letters are not all same case returns 1 if they are same case
     printf (" all letters result : %i \n ",result);
 
     result = stringlen(string);
-
+    //prints the length of string
     printf (" string length result : %i \n ",result);
 
     result = is_empty(string);
-
+    //prints 0 if string is not empty, 1 if it is empty/null
     printf (" is empty result : %i \n ",result);
 
 
@@ -41,6 +42,7 @@ testing driver program for string library.
      scanf("%s", search);
      result = find(string, search);
 
+     // print message depending on result of search function
      if (result == -1)
      printf ("no such char is contained in %s\n ",string);
      else
