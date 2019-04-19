@@ -1,5 +1,5 @@
 
-//#include <stdio.h>
+
 #include "StringLib.h"
 /* Returns the number of characters
  in the string s (up to but not including the '\0' character).
