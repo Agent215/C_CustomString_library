@@ -28,7 +28,8 @@ returns the index of the first occurence of n in the string h or -1 if it isn't 
 - is_empty(char *s)
 returns 1 if s is NULL, consists of only the null character ('') or only whitespace. returns 0 otherwise.
 
-
+- void rm_left_space(char *s)
+removes whitespace characters from the beginning of s
 
 
  ## Documentation of functions yet to be implemented 
@@ -44,9 +45,6 @@ Shortens the string s to new_len. If the original length of s is less than or eq
 
 - int len_diff(char *s1, char *s2)
 Returns the length of s1 - the length of s2
-
-- void rm_left_space(char *s)
-removes whitespace characters from the beginning of s
 
 - void rm_right_space(char *s)
 removes whitespace characters from the end of s
