@@ -1,7 +1,9 @@
 # C_CustomString_library
  Abraham Schultz 4/18/2019
  
- From Temple assignment. CIS 2107 low level systems programing.
+This was an extra credit assingment from the Temple University CIS 2107 low level systems programing course.
+Spring 2019
+
  ## string editing library for use with c.
  
  the .c files are the source files ,
