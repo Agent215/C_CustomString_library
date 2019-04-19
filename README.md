@@ -1,5 +1,6 @@
 # C_CustomString_library
-
+ Abraham Schultz 4/18/2019
+ 
  From Temple assignment. CIS 2107 low level systems programing.
  ## string editing library for use with c.
  
