@@ -7,9 +7,9 @@
  the .o files are the object files used to compile the library.
  the .a file is the library file compiled from the .h and the .c files
  
-           ## Documentation of functions 
+ ## Documentation of functions 
 - int str_len(char *s)
-Returns the number of characters in the string s (up to but not including the '\0' character).
+         Returns the number of characters in the string s (up to but not including the '\0' character).
 
 Note: Use pointer notation, not array notation for this. An example strlen implementation is shown below. Before just using this code, please understand what it is doing (you will be asked to explain why that code works). There are multiple ways you could implement this, so if your implementation is different from the below example, that is not a problem (as long as it works correctly of course).
 
