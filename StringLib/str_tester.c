@@ -19,13 +19,16 @@
   int main (int argc, char **argv) {
 
 
-    //input  test string
-    printf (" please enter a string \n ");
-    char string[250];
-    scanf("%s", string);
 
+    char string[250];
     //result from function to display
     int result;
+    char* SpaceString = "    Leading_SPACE_here";
+    char *search;
+
+     //input  test string
+    printf (" please enter a string \n ");
+    scanf("%s", string);
 
 
     //testing of functions
@@ -43,11 +46,13 @@
     printf (" is empty result : %i \n ",result);
 
 
+    printf (" first we have this string %s \n ", SpaceString);
+
+    SpaceString = rm_left_space(SpaceString) ;
+    printf ("Then we have this string: %s \n ", SpaceString);
 
 
      printf (" please enter a char to search for from previous string \n ");
-     char *search;
-     // Syntax to scan a String
      scanf("%s", search);
      result = find(string, search);
 
