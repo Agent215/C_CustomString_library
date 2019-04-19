@@ -1,6 +1,17 @@
+/* StringLib.h */
 #ifndef STRINGLIB_H_INCLUDED
 #define STRINGLIB_H_INCLUDED
 
+/*
+Abraham Schultz
+4/18/2019
+
+Header file for custom string library.
+This project was completed as part of
+a low level Systems course in the spring of 2019
+at Temple University. CIS 2107.
+
+*/
 
 
 /***********************************************************

@@ -1,10 +1,19 @@
-/*
-
-testing driver program for string library.
-
-*/
+/* str_tester.c */
 #include <stdio.h>
 #include"StringLib.h"
+
+/*
+
+ Driver program for testing custom string library.
+
+ This program uses a string editing library created
+ as part of CIS 2107 low level systems programing course at
+ Temple University.
+
+ This program simply demonstrated and tests library functions.
+
+*/
+
 
 //main method for testing during development
   int main (int argc, char **argv) {
