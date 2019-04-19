@@ -1,5 +1,6 @@
 /* str_tester.c */
 #include <stdio.h>
+#include<stdlib.h>
 #include"StringLib.h"
 
 /*
@@ -24,6 +25,7 @@
     //result from function to display
     int result;
     char* SpaceString = "    Leading_SPACE_here";
+    char* trailSpace = "trailing space               ";
     char *search;
 
      //input  test string
@@ -49,7 +51,13 @@
     printf (" first we have this string %s \n ", SpaceString);
 
     SpaceString = rm_left_space(SpaceString) ;
-    printf ("Then we have this string: %s \n ", SpaceString);
+    printf ("Then we remove left white space :%s \n ", SpaceString);
+
+
+    printf (" then we have this string %s \n ", trailSpace);
+
+    trailSpace = rm_right_space(trailSpace) ;
+    printf ("Then we remove right white space :%s \n ", trailSpace);
 
 
      printf (" please enter a char to search for from previous string \n ");
