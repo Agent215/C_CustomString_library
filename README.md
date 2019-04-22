@@ -6,9 +6,9 @@ Spring 2019
 
  # string editing library for use with c.
  
- the .c files are the source files ,
- the .o files are the object files used to compile the library.
- the .a file is the library file compiled from the .h and the .c files
+ I have provided the source files ,
+the object files used to compile the library, and the
+ library file compiled from the .h and the .c files
  
  ## Documentation of implemented functions 
 - int str_len(char *s)
